@@ -52,7 +52,7 @@ This module is part of a set (`Business Requirements repo <https://github.com/OC
 The base Business Requirements module creates the basic objects and 
 can be used as a standalone module.
 
-.. figure:: business_requirement/static/img/bus_req_tree.png
+.. figure:: ../business_requirement/static/img/bus_req_tree.png
    :width: 600 px
    :alt: Business Requirement List view
 
@@ -63,13 +63,13 @@ Procurement, Project or Analytic Accounting. For example:
 * Project Tasks can be related to the BRs they implement or support
 * Procurement and purchase can be generated out of the BR
 
-.. figure:: business_requirement/static/img/bus_req_module_diag.png
+.. figure:: ../business_requirement/static/img/bus_req_module_diag.png
    :width: 600 px
    :alt: Business Requirement modules diagram
 
 The following workflow explains the business workflow between the BR modules and other applications in Odoo:
 
-.. figure:: business_requirement/static/img/bus_req_workflow.png
+.. figure:: ../business_requirement/static/img/bus_req_workflow.png
    :width: 600 px
    :alt: Business Requirement integration in Odoo
 
@@ -83,7 +83,7 @@ This module only contains the standard base models for business requirement:
 * Standard setup and views
 * Standard Workflow
 
-.. figure:: business_requirement/static/img/bus_req.png
+.. figure:: ../business_requirement/static/img/bus_req.png
    :width: 600 px
    :alt: Business Requirement Form
 
@@ -102,7 +102,7 @@ Alias and emails
 You can setup an alias in Settings/Technical/Email/Alias in order to create 
 business requirements directly from email received at a specific address.
 
-.. figure:: business_requirement/static/img/bus_req_alias.png
+.. figure:: ../business_requirement/static/img/bus_req_alias.png
    :width: 600 px
    :alt: Email Alias setup
 
@@ -123,7 +123,7 @@ Tags
 
 You can create and assign tags for your business requirements in Business Requirements/Configuration/Bus. Req. Category
 
-.. figure:: business_requirement/static/img/bus_req_tags.png
+.. figure:: ../business_requirement/static/img/bus_req_tags.png
    :width: 600 px
    :alt: Define Tags
 
@@ -149,13 +149,13 @@ Simple BR
    * Tags: any relevant tag for the business.
    * Owner and approver by default
    
-   .. figure:: business_requirement/static/img/bus_req_tags2.png
+   .. figure:: ../business_requirement/static/img/bus_req_tags2.png
       :width: 600 px
       :alt: Input header information
    
 2. Input the customer story, scenario and gap (simple html editor with image and text)
 
-   .. figure:: business_requirement/static/img/bus_req_cust_story.png
+   .. figure:: ../business_requirement/static/img/bus_req_cust_story.png
       :width: 600 px
       :alt: Input customer story, scenario, gap
    
